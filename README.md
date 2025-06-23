@@ -1,24 +1,26 @@
-# Moonride – DevOps Deployment 🚀
+# DevOps – Microservice Deployment 🚀
 
-A containerized microservice architecture with CI/CD built using Docker, Kubernetes, and GitHub Actions. Designed for scalable e-commerce APIs with automated deployment and security in mind.
+A containerized microservice architecture built with Docker, Kubernetes, and GitHub Actions. Designed for scalable e-commerce APIs with automated CI/CD and security best practices.
 
 ## 🛠️ Stack
 - Docker + DockerHub
 - Kubernetes (Minikube or Cloud)
-- GitHub Actions
-- Trivy Security Scanner
-- Horizontal Pod Autoscaler, Ingress NGINX
+- GitHub Actions (CI/CD)
+- Trivy Image Scanner
+- Horizontal Pod Autoscaler
+- Ingress Controller (NGINX)
 
 ## 🚀 Quick Start
 
 ```bash
 # Clone & navigate
-git clone https://github.com/Codebruh-sudo/moonride.git
-cd moonride
+git clone https://github.com/Codebruh-sudo/DevOps.git
+cd DevOps
 
 # Build & run locally
-docker build -t moonride .
-docker run -p 5000:5000 moonride
+docker build -t devops-service .
+docker run -p 5000:5000 devops-service
+
 
 
 ## CI/CD ( for security reasons)
