@@ -54,3 +54,13 @@ docker run -p 5000:5000 devops-service
 - Initial CI/CD pipeline
 - Dockerfile, GitHub Actions, deployment configs
 
+
+
+### ATTCHMENTS
+https://drive.google.com/file/d/1ffDWs9VoxSc1TameQcAuXL4DRPzGneVO/view?usp=drive_link
+(link of the video of starting minikube and Deployment of all versions of containers )
+
+
+https://drive.google.com/file/d/1yn7dPtQ_Ev94CWQE5OsqmRUgLoDCQTLP/view?usp=drive_link
+https://drive.google.com/file/d/1eKbt5fyrjfFCFruH9hKgoDBFExSukiaX/view?usp=drive_link
+( SCREENSHOTS OF THE CODE RUNNING AND WORKING OD CI/CD PIPELINE)
